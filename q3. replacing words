@@ -1,0 +1,8 @@
+sen = "Go out for coffee ?"
+
+x = sen.split()
+for i in range(0,len(x)):
+  if x[i]== "coffee":
+    x[i]= "tea"
+x= ' '.join(x)
+print (x)
