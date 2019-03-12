@@ -1,0 +1,17 @@
+import random
+def guess():
+   x = random.randint(0,101)
+   print (x)
+   for i in range (0,101):
+    y=int(input("what is it?"))
+    if y <x :
+      print("LOW")
+    elif y>x:
+      print ("High")
+    else:
+       print ("you have got it")
+       print("no.of times",i)
+       break
+
+
+guess()
