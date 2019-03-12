@@ -1,0 +1,10 @@
+import time
+x = input("Name:")
+y = time.localtime()
+t = (y.tm_hour)
+if 18> t >= 12:
+  print ("Good Afternoon",x)
+elif t< 12:
+  print("Good Morning", x)
+else:
+  print("Good Evening", x)
