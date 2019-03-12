@@ -1,8 +1,11 @@
-sen = "Go out for coffee ?"
+sen =input("Write a sentence!")
+w1 = input("Select and type a word from the first sentence: ")
+w2 = input ("Type the replacing word: ")
 
 x = sen.split()
-for i in range(0,len(x)):
-  if x[i]== "coffee":
-    x[i]= "tea"
-x= ' '.join(x)
 print (x)
+for i in range(0,len(x)):
+  if x[i]== w1:
+    x[i]= w2
+y= ' '.join(x)
+print (y)
