@@ -1,0 +1,9 @@
+x = [8,9,11,12,2,5,6,7,4]
+y = max(x)
+m = min(x)
+for i in x:
+  if m<i< y:
+    y = i
+
+print (y)
+print (m)
