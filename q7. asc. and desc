@@ -1,0 +1,15 @@
+x= input("Just type 5 numbers with space in between")
+y= x.split()
+
+a= y[0]
+b= y[1]
+c= y[2]
+d= y[3]
+e= y[4]
+
+if a>b>c>d>e:
+  print("Descending")
+elif a<b<c<d<e:
+  print("Ascending")
+else:
+  print("None")
