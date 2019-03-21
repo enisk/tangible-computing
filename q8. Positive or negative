@@ -1,0 +1,15 @@
+x= input("Just type numbers with space in between")
+y= x.split()
+a=0
+b=0
+c=0
+for i in y:
+  i=int(i)
+  if i>0:
+    a= a+1
+  elif i<0:
+    b = b+1
+  else:
+    c = c+1
+
+print("zeros: %i, Negative: %i, Positive: %i"%(c,b,a))
